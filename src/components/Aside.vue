@@ -28,7 +28,7 @@ const changePage = (pageName) => {
       <span>我按讚的文章</span>
     </li>
   </ul>
-  <div class="fixed bottom-2 left-2 w-full text-center">
+  <div class="fixed bottom-0 left-0 p-2 w-full text-center">
     <div class="md:hidden w-[calc(100% - 16px)] inline-flex mx-auto bg-[#EFECE7] border-[3px] border-main-dark rounded-full py-2 px-5">
       <a href="/" class="rounded-full bg-gray-300 flex justify-center bg-white items-center overflow-hidden text-sm w-[50px] h-[50px] border-[3px] border-main-dark mx-3 cursor-pointer">
         <i class="material-icons"> house </i>
