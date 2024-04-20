@@ -7,7 +7,7 @@ import Avatar from '@/components/Avatar.vue'
     <div class="flex justify-between max-w-[1440px] mx-auto p-2">
       <a href="/" class="header__logo text-3xl font-bold">MetaWall</a>
       <div class="flex items-center">
-        <Avatar />
+        <Avatar :size="30" />
         <span class="member border-b-2 border-main-dark leading-4 ml-2 font-bold">Member</span>
       </div> 
     </div>
