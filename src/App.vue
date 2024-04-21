@@ -1,5 +1,4 @@
 <script setup>
-
 import Header from "@/components/Header.vue";
 import PostCell from "@/components/PostCell/cell.vue";
 import SearchBar from "@/components/searchInput.vue";
@@ -19,16 +18,16 @@ const changePage = (pageName) => {
     <Header />
     <div class="min-h-screen px-4 max-w-[1440px] mx-auto flex py-12">
       <div class="flex-auto">
-        <div class="h-20 mt-12 flex gap-3">
+        <div class="flex items-center gap-3">
           <CustomSelect />
           <SearchBar />
         </div>
         <PostCell />
       </div>
-       <aside class="w-[300px] ml-7 relative">
+      <aside class="w-[300px] ml-7 relative">
         <Aside @change-page="changePage" />
       </aside>
-     </div>
+    </div>
   </main>
 </template>
 

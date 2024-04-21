@@ -3,7 +3,7 @@ import Avatar from "@/components/Avatar.vue";
 </script>
 
 <template>
-  <div class="rounded-lg mt-4 shadow-md h-full p-5 bg-white border-2">
+  <div class="rounded-lg mt-4 shadow-md p-5 bg-white border-2">
     <div class="flex gap-4 items-center">
       <Avatar />
       <div class="flex flex-col">
@@ -18,10 +18,6 @@ import Avatar from "@/components/Avatar.vue";
       我決定回被窩繼續睡.....
     </p>
 
-    <img
-      src="@/assets/img/image.png"
-      alt="背景"
-      class="w-full object-cover h-full"
-    />
+    <img src="@/assets/img/image.png" alt="背景" class="w-full object-cover" />
   </div>
 </template>
